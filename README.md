@@ -23,3 +23,5 @@ You can download dataset in this [link](http://bit.ly/2YOEa5Z).
 ## 3. Run by ipynb code
 Each file have the result of different model with differential privacy (DP) or non-DP.
 The result will be saved in 'save' folder as .pkl file.
+
+We would like to run in GPU, CUDA condition.
