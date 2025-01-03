@@ -20,6 +20,7 @@ The code is based on Python 3.12+ and requires CUDA version 11.0 or higher. Foll
 ## 2. Dataset
 You can download dataset in this [link](http://bit.ly/2YOEa5Z).
 
+ ```shell
 @inproceedings{ma2020database,
   title={Database and benchmark for early-stage malicious activity detection in 3D printing},
   author={Ma, Xiaolong and Li, Zhe and Li, Hongjia and An, Qiyuan and Qiu, Qinru and Xu, Wenyao and Wang, Yanzhi},
@@ -28,6 +29,7 @@ You can download dataset in this [link](http://bit.ly/2YOEa5Z).
   year={2020},
   organization={IEEE}
 }
+```
 
 
 ## 3. Run by ipynb code
