@@ -35,14 +35,18 @@ You can download dataset in this [link](http://bit.ly/2YOEa5Z).
 This file changes file structure
 
 #### The original file structure
+
+ ```shell
 ./
 ├── lstm_images/
 │   ├── Cup
 │   ├── FathersDay
 │   ├── ...
+```
 
 #### when you run the first line
 
+```shell
 ./
 ├── train/
 │   ├── Cup
@@ -52,9 +56,11 @@ This file changes file structure
 │   ├── Cup
 │   ├── FathersDay
 │   ├── ...
+```
 
 #### when you run the second line
 
+```shell
 ./
 ├── train_split/
 │   ├── Cup
@@ -76,25 +82,7 @@ This file changes file structure
 │   │   ├── FathersDayR4P3Y2_1
 │   │   ├── FathersDayR4P3Y2_2
 │   │   ├── ...
-
-
-# File Structure
-
-project/
-├── src/
-│   ├── main.py
-│   ├── utils.py
-├── data/
-│   ├── raw/
-│   └── processed/
-├── docs/
-│   └── README.md
-├── tests/
-│   ├── test_main.py
-├── .gitignore
-├── requirements.txt
-├── README.md
-
+```
 
 
 Use generated train_split and test_split as the path to run the ipynb file in the below.
