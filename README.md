@@ -78,6 +78,25 @@ This file changes file structure
 │   │   ├── ...
 
 
+# File Structure
+
+project/
+├── src/
+│   ├── main.py
+│   ├── utils.py
+├── data/
+│   ├── raw/
+│   └── processed/
+├── docs/
+│   └── README.md
+├── tests/
+│   ├── test_main.py
+├── .gitignore
+├── requirements.txt
+├── README.md
+
+
+
 Use generated train_split and test_split as the path to run the ipynb file in the below.
 
 
