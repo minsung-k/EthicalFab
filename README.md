@@ -30,9 +30,58 @@ You can download dataset in this [link](http://bit.ly/2YOEa5Z).
   organization={IEEE}
 }
 ```
+## 3. Run 'changing_file_structure.ipynb' file
+
+This file changes file structure
+
+#### The original file structure
+./
+├── lstm_images/
+│   ├── Cup
+│   ├── FathersDay
+│   ├── ...
+
+#### when you run the first line
+
+./
+├── train/
+│   ├── Cup
+│   ├── FathersDay
+│   ├── ...
+├── test/
+│   ├── Cup
+│   ├── FathersDay
+│   ├── ...
+
+#### when you run the second line
+
+./
+├── train_split/
+│   ├── Cup
+│   │   ├── CupR0P0Y0_0
+│   │   ├── CupR0P0Y0_1
+│   │   ├── ...
+│   ├── FathersDay
+│   │   ├── FathersDayR0P0Y0_0
+│   │   ├── FathersDayR0P0Y0_1
+│   │   ├── ...
+
+│   ├── ...
+├── test_split/
+│   ├── Cup
+│   │   ├── CupR5P5Y5_2
+│   │   ├── CupR5P5Y5_1
+│   │   ├── ...
+│   ├── FathersDay
+│   │   ├── FathersDayR4P3Y2_1
+│   │   ├── FathersDayR4P3Y2_2
+│   │   ├── ...
 
 
-## 3. Run by ipynb code
+Use generated train_split and test_split as the path to run the ipynb file in the below.
+
+
+## 4. Run by ipynb code
 Each file have the result of different model with differential privacy (DP) or non-DP.
 The result will be saved in 'save' folder as .pkl file.
 
