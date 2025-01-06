@@ -21,7 +21,7 @@ from opacus.utils.batch_memory_manager import BatchMemoryManager
 import warnings
 warnings.filterwarnings('ignore')
 
-from util import cnnlstm, visiontransformer
+from util import cnnlstm
 
 import uuid
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

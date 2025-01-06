@@ -23,7 +23,7 @@ warnings.filterwarnings('ignore')
 
 import uuid
 
-from util import cnnlstm, visiontransformer
+from util import cnnlstm
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 #------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ def DPcnn3d(model, train_loader, val_loader, criterion, optimizer, num_epochs, e
             optimizer.zero_grad()
             
             frames = frames.to(device)
-            labels = labels.to(device')
+            labels = labels.to(device)
             mask = mask.to(device)
             position_intervals = position_intervals.to(device)
 
