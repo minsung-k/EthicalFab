@@ -11,11 +11,17 @@ The code is based on Python 3.12+ and requires CUDA version 11.0 or higher. Foll
    conda activate ethicalfab
    ```
 
-2. Install PyTorch (version can vary depending on your environment):
+2. Install requirement PackagesPyTorch (version can vary depending on your environment):
    
-   ```shell
-   conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
-   ```
+```shell
+pip install opencv-python
+pip install Pillow
+pip install opacus
+pip uninstall numpy
+pip install numpy==1.26.0  # numpy version must be lower than 2.0.0
+```
+
+install torch based on your condition in this [link](https://pytorch.org/get-started/locally/).
 
 ## 2. Dataset
 You can download dataset in this [link](http://bit.ly/2YOEa5Z).
