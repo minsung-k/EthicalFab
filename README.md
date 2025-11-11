@@ -103,3 +103,17 @@ The result will be saved in 'save' folder as .pkl file.
 Change epoch and batch size based on your situation. We set epoch and batch size as 20 and 512. 
 
 We would like to suggest to run this code in GPU condition.
+
+## 5. Citation
+If you use this repository in your research, please cite:
+```
+@article{kang2025ethicalfab,
+  title={EthicalFab: Toward ethical fabrication process through privacy-preserving illegal product detection},
+  author={Kang, Minsung and Sun, Hongyue},
+  journal={Manufacturing Letters},
+  volume={44},
+  pages={1425--1431},
+  year={2025},
+  publisher={Elsevier}
+}
+```
