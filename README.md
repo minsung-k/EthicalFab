@@ -12,16 +12,18 @@ The code is based on Python 3.12+ and requires CUDA version 11.0 or higher. Foll
    ```
 
 2. Install requirement PackagesPyTorch (version can vary depending on your environment):
+
+   install torch based on your condition in this [link](https://pytorch.org/get-started/locally/).
    
 ```shell
-pip install opencv-python
+python -m pip install "opencv-python==4.9.0.80"
 pip install Pillow
-pip install opacus
+python -m pip install opacus --no-deps
 pip uninstall numpy
-pip install numpy==1.26.0  # numpy version must be lower than 2.0.0
+pip install numpy==1.26.0  # numpy version must be lower than 2.0.0 for using opacus
 ```
 
-install torch based on your condition in this [link](https://pytorch.org/get-started/locally/).
+
 
 ## 2. Dataset
 You can download dataset in this [link](http://bit.ly/2YOEa5Z).
